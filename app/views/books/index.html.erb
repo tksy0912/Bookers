@@ -5,8 +5,10 @@
   <span><%= book.title %></span>
   <p>Body</p>
   <span><%= book.body %></span>
-  <a href="/show">Show</a>
-  <a href="/edit">Edit</a>
+  <span>
+    <%= link_to "Show", book_path(book.id) %>
+  </span>
+  <%= link_to "Edit", edit_book_path(book.id) %>
   <a href="">Destroy</a>
 
 <% end %>
