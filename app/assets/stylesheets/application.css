@@ -5,8 +5,43 @@
 }
 
 body {
-  font-size: 13px;
+  font-size: 8px;
   margin: 33px;
+  letter-spacing: 0.1em;
+}
+
+top-p {
+  margin: 33px;
+}
+
+table {
+  line-height: 2;
+}
+
+.link {
+  color: black;
+}
+.link:hover {
+  color: white;
+  background-color: black;
+}
+
+h2 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.btn-style {
+  width: 70px;
+  height: 15px;
+}
+
+.submit-btn {
+  font-size: 10px;
+}
+
+.button-container {
+  margin-top: 5px;
 }
   /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
