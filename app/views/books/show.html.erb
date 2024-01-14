@@ -1,8 +1,13 @@
-<h2>Title:</h2>
-<%= @book.title %>
+<body>
+  <p class="text">
+    <b>Title:</b><%= @book.title %>
+  </p>
 
-<h2>Body:</h2>
-<%= @book.body %>
+  <p class="text">
+    <b>Body:</b><%= @book.body %>
+  </p>
 
-<%= link_to "Edit", edit_book_path(@book.id), class: "link" %>
-<%= link_to "Back", books_path, class: "link" %>
+    <%= link_to "Edit", edit_book_path(@book.id), class: "link" %>
+    |
+    <%= link_to "Back", books_path, class: "link" %>
+</body>

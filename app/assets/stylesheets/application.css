@@ -37,11 +37,25 @@ h2 {
 }
 
 .submit-btn {
-  font-size: 10px;
+  font-size: 9px;
 }
 
 .button-container {
   margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  font-size: 9px;
+  letter-spacing: 0.1em;
+}
+
+.text {
+  margin: 33px;
+}
+
+h1 {
+  margin-bottom: 5px;
 }
   /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files

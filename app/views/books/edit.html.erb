@@ -2,14 +2,15 @@
 <%= form_with model: @book do |f| %>
 
   <h4>Title</h4>
-  <%= f.text_field :title %>
+  <%= f.text_field :title, size: 15 %>
 
   <h4>Body</h4>
   <%= f.text_area :body %>
 
-  <p><%= f.submit 'Update book' %></p>
+  <p class="button-container"><%= f.submit 'Update book', class: 'btn-style submit-btn' %></p>
 
 <% end %>
 
 <%= link_to "Show", book_path(@book.id), class: "link" %>
+|
 <%= link_to "Back", books_path, class: "link" %>
