@@ -10,10 +10,6 @@ body {
   letter-spacing: 0.1em;
 }
 
-top-p {
-  margin: 33px;
-}
-
 table {
   line-height: 2;
 }
@@ -21,6 +17,7 @@ table {
 .link {
   color: black;
 }
+
 .link:hover {
   color: white;
   background-color: black;
