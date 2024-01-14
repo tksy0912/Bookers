@@ -11,7 +11,8 @@ body {
 }
 
 table {
-  line-height: 2;
+  border-collapse: separate;
+  border-spacing: 7px;
 }
 
 .link {
